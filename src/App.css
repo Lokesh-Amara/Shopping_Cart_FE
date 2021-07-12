@@ -36,3 +36,205 @@
     transform: rotate(360deg);
   }
 }
+
+/* #root {
+  background-color: white;
+} */
+
+#fixedNavBar {
+  background-color: rgb(248, 248, 248);
+  width: 100vw;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%); */
+}
+
+.navbarBrandButton:focus {
+  box-shadow: none;
+}
+
+.tagButton {
+  color: rgb(19, 4, 226);
+}
+.tagButton:hover {
+  color: rgb(19, 4, 226);
+  cursor: inherit;
+}
+.tagButton:focus {
+  box-shadow: none;
+  color: rgb(19, 4, 226);
+}
+
+#productComponentBox {
+  width: 230px;
+  border: 1px solid #00000020;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 1.5rem;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+#productComponentBox:hover {
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.2);
+  color: rgb(73, 166, 243);
+  cursor: grab;
+  transform: scale(1.05);
+}
+
+#hrLine {
+  width: 170px;
+  margin: 0px 0px 10px 30px;
+}
+
+.productDetailPage {
+  text-align: left;
+}
+
+.productDescription {
+  color: rgb(161, 161, 161);
+}
+
+.inputCountryBox {
+  background-color: rgb(248, 248, 248);
+}
+
+.inputCountryBox:hover {
+  cursor: inherit;
+}
+
+.inputCountryBox:focus {
+  box-shadow: none;
+}
+
+.addToCartBtn {
+  background-color: rgb(255, 217, 0);
+  color: black;
+  transition: all 0.3s linear;
+}
+
+.addToCartBtn:hover {
+  background-color: rgb(214, 183, 4);
+}
+.addToCartBtn:focus {
+  box-shadow: none;
+}
+
+.buyBtn {
+  background-color: rgb(255, 166, 0);
+  color: black;
+  transition: all 0.3s linear;
+}
+
+.buyBtn:hover {
+  background-color: rgb(204, 134, 4);
+}
+.buyBtn:focus {
+  box-shadow: none;
+}
+
+.userProfileBtn:hover {
+  cursor: inherit;
+}
+.userProfileBtn:focus {
+  box-shadow: none;
+}
+
+.logoutBtn {
+  transition: all 0.05s linear;
+}
+
+.logoutBtn:hover {
+  background-color: rgb(252, 235, 82);
+  border-radius: 10px;
+}
+
+.logoutBtn:focus {
+  box-shadow: none;
+}
+.myCartBtn {
+  transition: all 0.05s linear;
+}
+
+.myCartBtn:hover {
+  background-color: rgb(82, 252, 147);
+  border-radius: 10px;
+}
+
+.myCartBtn:focus {
+  box-shadow: none;
+}
+.viewBtn {
+  background-color: rgb(82, 252, 147);
+  transition: all 0.05s linear;
+}
+.viewBtn:hover {
+  background-color: rgb(57, 201, 112);
+  border-radius: 10px;
+  color: white;
+}
+.viewBtn:focus {
+  box-shadow: none;
+}
+
+.removeBtn {
+  background-color: rgb(253, 108, 108);
+  transition: all 0.05s linear;
+}
+.removeBtn:hover {
+  background-color: rgb(197, 82, 82);
+  border-radius: 10px;
+  color: white;
+}
+.removeBtn:focus {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+.finalBuyBtn {
+  background-color: rgb(82, 252, 147);
+  transition: all 0.05s linear;
+}
+.finalBuyBtn:hover {
+  background-color: rgb(71, 194, 118);
+}
+.finalBuyBtn:focus {
+  box-shadow: none;
+}
+
+#promptBox {
+  position: absolute;
+  top: 30%;
+  bottom: 60%;
+  left: 35%;
+  width: 30%;
+  height: 20%;
+  background-color: rgb(0, 27, 51);
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 2;
+  text-align: center;
+  color: black;
+}
+
+#promptClose {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+#promptPara {
+  color: white;
+}
+
+#bttn {
+  color: blue;
+  background-color: white;
+}
